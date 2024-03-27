@@ -36,6 +36,8 @@ class TaskManager:
 task_manager = TaskManager()
 task_manager.add_task("Купить продукты", "2024-03-30")
 task_manager.add_task("Оплатить счета", "2024-04-05")
+task_manager.add_task("Забрать посылку", "2024-05-06")
+task_manager.add_task("Заполнить форму для отчета", "2024-06-07")
 
 
 task_manager.mark_task_completed("Купить продукты")
