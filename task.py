@@ -3,7 +3,7 @@
 # (выполнено/не выполнено). Реализуй функцию для добавления задач, отметки
 # выполненных задач и вывода списка текущих (не выполненных) задач
 
-class Task:
+class Task():
     def __init__(self, description, due_date):
         self.description = description
         self.due_date = due_date
